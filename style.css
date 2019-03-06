@@ -1,4 +1,6 @@
 body {
+  margin-left: 200px;
+  margin-right: 200px;
   font-size: 28px;
   font-family: Apple Chancery, cursive, Helvetica, sans-serif;
 }
@@ -111,9 +113,8 @@ li a:hover {
   height:auto;
   margin-top: 0;
   background-color:#23a390;
-  font-size:36px
   display: block;
-  font: 50px Apple Chancery, cursive, Helvetica, sans-serif;;
+  font: 28px Apple Chancery, cursive, Helvetica, sans-serif;;
   padding: 24px 15px;
   text-align: center;
 
