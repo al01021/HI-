@@ -119,3 +119,13 @@ li a:hover {
   text-align: center;
 
 }
+/* things to do section*/
+.section {
+  height:auto;
+  margin-top: 0;
+  background-color:#40d6b6;
+  display: block;
+  font: 28px Apple Chancery, cursive, Helvetica, sans-serif;;
+  padding: 24px 15px;
+  text-align: center;
+}
