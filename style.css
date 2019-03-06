@@ -1,78 +1,120 @@
-body{
-  color: rgb(85,45,66);
-  font-family: arial;
-  text-align: center;
-  margin: 10%;
-  margin-bottom: 10%;
-  background: white;
-  background-image:
+body {
+  font-size: 28px;
+  font-family: Apple Chancery, cursive, Helvetica, sans-serif;
 }
-div{
-  min-hight:100vw;
-  width: 100vw;
-  margin-left: 0%;
+
+/*two top icon buttons*/
+.btn-group button {
+  background-color: #23a390;
+  border: 1px solid white;
+  color: black ;
+  padding: 10px 24px;
+  cursor: pointer;
+  float: right;
+  width: 50%;
+  font-family: Apple Chancery, cursive, Helvetica, sans-serif;
+  font-size: 15px;
 }
-h1, h2 {
+
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* Prevent double borders */
+.btn-group button:not(:last-child) {
+  border-right: none;
+}
+
+/* background color on hover */
+.btn-group button:hover {
+  background-color: #9eefe3;
+}
+
+/* logo */
+.header img {
+  float: left;
+  width: 160px;
+  height: auto;
+  padding-left: 5%;
+}
+
+/* header */
+.header h1 {
+  position: relative;
+  top: 18px;
+  font-size: 100px;
   text-align: center;
+}
+
+/* stycky navbar */
+ul {
+  list-style-type: none;
+  border: 1px solid white;
+  margin: 0;
+  padding: 10;
+  overflow: hidden;
+  background-color: #23a390;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
 
 }
-h1{
-  font-size: 5em;
-  color: blue;
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
 }
-h2{
-  font-size: 3em;
+/* background color on hover */
+li a:hover {
+  background-color: #9eefe3;
+}
+
+
+/*  header that should go under the navbar  "discover hayling"
+  code {
+  background: #23a390;
+  color: #fff;
+  display: block;
+  font: 50px Apple Chancery, cursive, Helvetica, sans-serif;;
+  padding: 24px 15px;
+  text-align: center;
+
+}*/
+
+/* homepage main picture*/
+.home_pic {
+  height: auto;
+  position: static;
+  text-align: center;
   color: white;
 }
-img{
-    display: flex;
-    padding: 20px;
-  margin: 0 auto;
-    border-radius: 130px;
-}
-p{
-    text-align: center;
-    width:60%;
-    margin-left: 20%;
-    font-size: 2em;
-}
-a{
-  color: rgb(0,0,0);
-}
-ol{
-  color: red;
-  list-style: initial;
-  padding: 10;
-  margin-bottom: 10%;
-  font-size: 2em;
-  display: flex;
-  justify-content: space-evenly;
+
+/* homepage picture_text */
+.home_pic_txt {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-li#lower{
-    margin-top: 7%;
-    color: red;
-  }
-li#lowest{
-  margin-bottom: 14%;
-  color: black;
-}
-div.contrast{
-  background-color: rgb(36,20,255);
-  background-position: center;
-  color: rgb(255,255,255);
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-
-}
-input [type 'SUBMIT']{
-  background-color: red;
-}
-#id demo{
+/* homepage main text*/
+.home_txt {
+  height:auto;
+  margin-top: 0;
+  background-color:#23a390;
+  font-size:36px
+  display: block;
+  font: 50px Apple Chancery, cursive, Helvetica, sans-serif;;
+  padding: 24px 15px;
   text-align: center;
-  width:40%;
-  margin:10vh 10vw;
-  font-size: 2em
+
 }
