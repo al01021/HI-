@@ -147,6 +147,13 @@ li a:hover {
   font-size: 30px;
   background-color:#23a390;
   padding-top: 0px;
+  height:auto;
+  margin-top: 0;
+  background-color:#23a390;
+  display: block;
+  font: 28px Apple Chancery, cursive, Helvetica, sans-serif;
+  padding: 24px 15px;
+  text-align: center;
     }
 /*windsurfing text*/
 .rightfloattxt {
