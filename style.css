@@ -98,12 +98,13 @@ li a:hover {
   position: static;
   text-align: center;
   color: white;
+  font-size: 50px;
 }
 
 /* homepage picture_text */
 .home_pic_txt {
   position: absolute;
-  top: 130%;
+  top: 155%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -164,8 +165,21 @@ background-color:#40d6b6;
 display: block;
 }
 /* Things to do picture_text */
-.ThingsToDo_pic_txt {
+.ThingsToDo_pic_txt1 {
   position: absolute;
-  top: 130%;
+    top: 313%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+.ThingsToDo_pic_txt2 {
+  position: absolute;
+    top: 313%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+  .ThingsToDo_pic_txt3 {
+    position: absolute;
+      top: 313%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
