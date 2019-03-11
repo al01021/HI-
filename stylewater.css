@@ -1,7 +1,31 @@
 body {
-  margin-left: 200px;
-  margin-right: 200px;
-  font-size: 28px;
+  margin-left: 100px;
+  margin-right: 100px;
   font-family: Apple Chancery, cursive, Helvetica, sans-serif;
   background-color: #9eefe3;
+}
+/* header */
+.header h1 {
+  position: relative;
+  top: 18px;
+  font-size: 3.5em;
+  text-align: center;
+}
+.header h2 {
+  position: relative;
+  top: 18px;
+  font-size: 2.5em;
+  text-align: center;
+}
+.section {
+    height:auto;
+    margin-top: 0;
+    background-color:#40d6b6;
+    display: block;
+    font: 28px Apple Chancery, cursive, Helvetica, sans-serif;;
+    padding: 24px 15px;
+    text-align: center;
+}
+p {
+  font-size: 1.8em;
 }
