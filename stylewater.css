@@ -1,1 +1,7 @@
-stylesheet
+body {
+  margin-left: 200px;
+  margin-right: 200px;
+  font-size: 28px;
+  font-family: Apple Chancery, cursive, Helvetica, sans-serif;
+  background-color: #9eefe3;
+}
