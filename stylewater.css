@@ -22,10 +22,23 @@ body {
     margin-top: 0;
     background-color:#40d6b6;
     display: block;
-    font: 28px Apple Chancery, cursive, Helvetica, sans-serif;;
+    font: 28px Apple Chancery, cursive, Helvetica, sans-serif;
     padding: 24px 15px;
     text-align: center;
+    }
+.contacts {
+   background-color:#acffd4;
+    }
+.list-group list-group-flush {
+   background-color:#acffd4;
 }
+.col-sm {
+  display: 10%;
+  margin-top: 20px;
+  float: right;
+  max-width: : 100px
+}
+
 p {
   font-size: 1.8em;
 }
