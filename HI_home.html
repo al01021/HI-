@@ -3,14 +3,8 @@
 <head>
     <title>Welcome to Hayling Island</title> <!--tab title-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous"> <!-- button icon link-->
-    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet'  type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Arizonia' rel='stylesheet' type='text/css'>
-
-    <link rel="stylesheet" href-"css/bootstrap.css"> <!--bootstrap link-->
     <link rel= 'stylesheet' type = 'text/css' href = './style.css'> <!-- css file link-->
-    <script src="./HI_home.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous"> <!-- button icon link-->
 </head>
 
 
@@ -23,67 +17,35 @@
     </form>
     <form action="https://www.bbc.co.uk/weather/8299619">
     <button type="submit"> <i class="fa fa-sun"></i> Current Weather</button>
-    </form>
   </div>
 
-  <!-- logo & navbar-->
-  <ul >
-    <div class="logo">
-      <img src="./logo3.jpg" alt="LOGO" height="50px" width="50px">
-  <!-- sticky navbar-->
-      <li><a href="#whatson">What's On</a></li>
-      <li><a href="#places">Places To Stay</a></li>
-      <li><a href="#ThingsToDo">Things To Do</a></li>
-    </div>
+  <!-- logo & header-->
+  <div class="header">
+
+    <img src="./logo2.jpg" alt="LOGO" height="20%" width="20%"-->
+    <h1> Discover Hayling Island </h1>
+  </div>
+
+  <!--sticky navbar- text to go in the center? -->
+  <ul>
+    <li><a href="#ThingsToDo">Things To Do</a></li>
+    <li><a href="#places">Places To Stay</a></li>
+    <li><a href="#whatson">What's On</a></li>
   </ul>
 
-<main>
-  <!-- header-->
-  <header>
-    <h1>Discover</h1><h2>Hayling Island...</h2>
-  </<header>
+<!-- as per PP "discover hayning " that should go under navbar temporarly moved to the top>
+<header>
+  <code>
+<p> Discover Hayling Island</p>
+</code>
+</header-->
 
   <!-- homepage - main picture-->
-  <div class="slideshow-container">
+  <div class="home_pic">
 
-<div class="mySlides fade">
-  <!--div class="numbertext">1 / 3</div-->
-  <img src="./home_pic2.jpg" width="100%">
-  <!--div class="text">...your island getaway is closer than you think.</div-->
-</div>
-
-<div class="mySlides fade">
-  <!--div class="numbertext">2 / 3</div-->
-  <img src="./home_pic4.jpg" width="100%">
-  <!--div class="text">Caption Two</div-->
-</div>
-
-<div class="mySlides fade">
-  <!--div class="numbertext">3 / 3</div-->
-  <img src="./home_pic5.jpg" width="100%">
-  <!--div class="text">Caption Three</div-->
-</div>
-<div class="mySlides fade">
-  <!--div class="numbertext">3 / 3</div-->
-  <img src="./home_pic6.jpg" width="100%">
-  <!--div class="text">Caption Three</div-->
-</div>
-<div class="mySlides fade">
-  <!--div class="numbertext">3 / 3</div-->
-  <img src="./home_pic7.jpg" width="100%">
-  <!--div class="text">Caption Three</div-->
-</div>
-</div>
-
-<div>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-</div>
-<script src="./new.js"></script>
-
+    <img src="./home_pic.jpg" alt="Homepage img" width="100%"-->
+    <div class = "home_pic_txt">..your island getaway is closer than you think.</div> <!-- picture_text-->
+  </div>
 
   <!-- homepage - main text-->
   <div class="home_txt">
@@ -96,31 +58,35 @@
     </p>
   </div>
   <!-- navbar linked to this section - things to do-->
-    <div class="section1">
-      <a name="ThingsToDo"></a>
-      <h3>Things to do on Hayling Island</h3>
+  <div class="section">
+    <a name="ThingsToDo"></a>
+
       <br>
-      <div class="row">
-          <div class="column">
-              <div class="content">
-                <p><a href="./HI_home.html">
-                <img src="./watersport.jpg" alt="watersports" width="100%" ><i>Watersports  :)</i></a></p>
-              </div>
+      <h3>Things to do on Hayling Island</h3>
+
+      <br>
+    <div class="row">
+        <div class="column">
+            <div class="content">
+              <img src="./home4.jpg" alt="water" style="width:100%">
+
+              <button class="btn">Watersports</button>
             </div>
-          <div class="column">
-              <div class="content">
-                <p><a href="./HI_home.html">
-                <img src="./nature1.jpg" alt="nature" style="width:100%"><i>Nature</i></a></p>
-              </div>
           </div>
-          <div class="column">
-              <div class="content">
-                  <p><a href="./HI_home.html">
-                  <img src="./family.jpg" alt="family" style="width:100%"><i>Family Fun xxx</i></a></p>
-              </div>
-          </div>
+        <div class="column">
+            <div class="content">
+              <img src="./home4.jpg" alt="Nature" style="width:100%">
+
+          <button class="btn">Nature</button>
         </div>
       </div>
+          <div class="column">
+              <div class="content">
+                <img src="./home4.jpg" alt="Family" style="width:100%">
+
+            <button class="btn">Family</button>
+      </div>
+    </div>
 
 
       <p>Planning your stay is half the fun, so take time to explore your options, whether gettingPlanning your stay is half the fun, so take time to explore your options, whether gettingPlanning your stay is half the fun, so take time to explore your options, whether gettingPlanning your stay is half the fun, so take time to explore your options, whether gettingPlanning your stay is half the fun, so take time to explore your options, whether gettingPlanning your stay is half the fun, so take time to explore your options, whether gettingPlanning your stay is half the fun, so take time to explore your options, whether gettingPlanning your stay is half the fun, so take time to explore your options, whether gettingPlanning your stay is half the fun, so take time to explore your options, whether gettingPlanning your stay is half the fun, so take time to explore your options, whether gettingPlanning your stay is half the fun, so take time to explore your options, whether gettingPlanning your stay is half the fun, so take time to explore your options, whether gettingPlanning your stay is half the fun, so take time to explore your options, whether gettingPlanning your stay is half the fun, so take time to explore your options, whether gettingvvvvPlanning your stay is half the fun, so take time to explore your options, whether gettingPlanning your stay is half the fun, so take time to explore your options, whether gettingPlanning your stay is half the fun, so take time to explore your options, whether gettingPlanning your stay is half the fun, so take time to explore your options, whether gettingPlanning your stay is half the fun, so take time to explore your options, whether gettingPlanning your stay is half the fun, so take time to explore your options, whether gettingPlanning your stay is half the fun, so take time to explore your options, whether gettingPlanning your stay is half the fun, so take time to explore your options, whether gettingPlanning your stay is half the fun, so take time to explore your options, whether getting </p>
