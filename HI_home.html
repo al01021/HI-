@@ -7,7 +7,7 @@
     <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet'  type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Arizonia' rel='stylesheet' type='text/css'>
-
+    <link href="https://fonts.googleapis.com/css?family=Cardo" rel="stylesheet" type='text/css'>
     <link rel="stylesheet" href-"css/bootstrap.css"> <!--bootstrap link-->
     <link rel= 'stylesheet' type = 'text/css' href = './style.css'> <!-- css file link-->
     <script src="./HI_home.js"></script>
@@ -15,25 +15,29 @@
 
 
 <body>
+  <a name="home"></a> <!-- link to home button- navbar-->
+
   <!-- two top icon buttons - linked to bbc_weather web and tide_timetables-->
   <div class="btn-group">
 
-    <form action="https://magicseaweed.com/Hayling-Island-Surf-Report/1344/Tide/">
-    <button type="submit"  /><i class = "fa fa-water"></i> Tidal Times </button>
-    </form>
-    <form action="https://www.bbc.co.uk/weather/8299619">
-    <button type="submit"> <i class="fa fa-sun"></i> Current Weather</button>
-    </form>
+      <form action="https://magicseaweed.com/Hayling-Island-Surf-Report/1344/Tide/">
+        <button type="submit"  /><i class = "fa fa-water"></i> Tidal Times </button>
+      </form>
+      <form action="https://www.bbc.co.uk/weather/8299619">
+        <button type="submit"> <i class="fa fa-sun"></i> Current Weather</button>
+      </form>
   </div>
 
   <!-- logo & navbar-->
   <ul >
     <div class="logo">
       <img src="home_img/logo3.jpg" alt="LOGO" height="50px" width="50px">
+
   <!-- sticky navbar-->
       <li><a href="#whatson">What's On</a></li>
       <li><a href="#places">Places To Stay</a></li>
       <li><a href="#ThingsToDo">Things To Do</a></li>
+      <li><a href="#home">Home</a></li>
     </div>
   </ul>
 
@@ -46,58 +50,46 @@
   <!-- homepage - main picture-->
   <div class="slideshow-container">
 
-<div class="mySlides fade">
-  <!--div class="numbertext">1 / 3</div-->
-  <img src="home_img/home_pic2.jpg" width="100%">
-  <!--div class="text">...your island getaway is closer than you think.</div-->
-</div>
+      <div class="mySlides fade">
+        <img src="home_img/home_pic2.jpg" width="100%">
+      </div>
 
-<div class="mySlides fade">
-  <!--div class="numbertext">2 / 3</div-->
-  <img src="home_img/home_pic4.jpg" width="100%">
-  <!--div class="text">Caption Two</div-->
-</div>
+      <div class="mySlides fade">
+        <img src="home_img/home_pic4.jpg" width="100%">
+      </div>
 
-<div class="mySlides fade">
-  <!--div class="numbertext">3 / 3</div-->
-  <img src="home_img/home_pic5.jpg" width="100%">
-  <!--div class="text">Caption Three</div-->
-</div>
-<div class="mySlides fade">
-  <!--div class="numbertext">3 / 3</div-->
-  <img src="home_img/home_pic6.jpg" width="100%">
-  <!--div class="text">Caption Three</div-->
-</div>
-<div class="mySlides fade">
-  <!--div class="numbertext">3 / 3</div-->
-  <img src="home_img/home_pic7.jpg" width="100%">
-  <!--div class="text">Caption Three</div-->
-</div>
-</div>
+      <div class="mySlides fade">
+        <img src="home_img/home_pic5.jpg" width="100%">
+      </div>
 
-<div>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-</div>
-<script src="./HI_home.js"></script>
+      <div class="mySlides fade">
+        <img src="home_img/home_pic6.jpg" width="100%">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="home_img/home_pic7.jpg" width="100%">
+      </div>
+  </div>
+  <div>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+  </div>
+  <script src="./HI_home.js"></script>
 
 
   <!-- homepage - main text-->
   <div class="home_txt">
-
     <p>Situated between Portsmouth and Chichester harbour and linked to the mainland by both road bridge and ferry, Hayling Island is close enough to offer a fantastic weekend adventure but a world away from your day to day. </p>
-
     <h2>Planning your stay</h2>
-
-    <p>Planning your stay is half the fun, so take time to explore your options, whether getting close to the water through our huge range of watersports on offer, or relaxing on our Blue Flag beaches, Hayling Island is the ultimate destination for thrill-seekers and sun seekers alike. There is also plenty to keep the kids happy and nature lovers will be spoilt for choice given our extensive walks and local wildlife.
-    </p>
+    <p>Planning your stay is half the fun, so take time to explore your options, whether getting close to the water through our huge range of watersports on offer, or relaxing on our Blue Flag beaches, Hayling Island is the ultimate destination for thrill-seekers and sun seekers alike. There is also plenty to keep the kids happy and nature lovers will be spoilt for choice given our extensive walks and local wildlife.</p>
   </div>
+
   <!-- navbar linked to this section - things to do-->
-    <div class="section1">
-      <a name="ThingsToDo"></a>
+  <div class="section1">
+    <a name="ThingsToDo"></a>
       <h3>Things to do on Hayling Island</h3>
       <br>
       <div class="row">
@@ -106,7 +98,7 @@
                 <p><a href="./HI_home.html">
                 <img src="./home_img/watersport.jpg" alt="watersports" width="100%" ><i>Watersports</i></a></p>
               </div>
-            </div>
+          </div>
           <div class="column">
               <div class="content">
                 <p><a href="./HI_home.html">
@@ -119,12 +111,56 @@
                   <img src="./home_img/family.jpg" alt="family" style="width:100%"><i>Family Fun xxx</i></a></p>
               </div>
           </div>
-        </div>
+      </div>
+    </div>
+
+    <!-- navbar linked to this section - places to stay-->
+    <div class="section2">
+      <a name="places"></a>
+        <h3>Places to stay on Hayling Island</h3>
+        <br>
+          <div class="row">
+            <div class="column left" style="background-color:white;" >
+                <img src="https://lh5.googleusercontent.com/p/AF1QipNkICoBM6jfffen78NvHpIAxAyq_ioDR86xfMXx=w325-h208-k-no" alt="hotel" width="100%">
+            </div>
+            <div class="column right">
+                <strong> Hotels</strong>
+                <p>If you are looking for a little bit of luxary, have a look at our hotel suggestions.</p>
+                <p><a href="https://www.langstonequays.co.uk/?utm_source=google&utm_medium=google%20serp"><i> Langstone Hotel</i></a>
+                <br>
+                <a href="https://www.newtownhouse.co.uk/"><i> New Town Hotel</i></a></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column left" style="background-color:white;" >
+                <img src="https://www.warnerleisurehotels.co.uk/Images/lak_mainbuilding_01_16_tcm13-21628_w1200_h675_n.jpg" alt="holiday parks" width="100%">
+            </div>
+            <div class="column right" >
+                <strong> Holiday Parks </strong>
+                <p>Looking for accommodation and entertainment in one place? Why not to stay in one of Hayling Holiday Parks.</p>
+                <p><a href="https://www.warnerleisurehotels.co.uk/hotels/lakeside-holiday-village"><i> Lakeside Holiday Village</i></a>
+                <br>
+                <a href="https://www.parkdeanresorts.co.uk/location/hampshire/hayling-island/"><i> Parkdean Holiday Park</i></a></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column left" style="background-color:white;" >
+                <img src="https://lh5.googleusercontent.com/p/AF1QipMd-GX5uZ-Dv32ARNtP-laHohYUYA19PS7d2vDn=w592-h404-n-k-no-v1" alt="hotel" width="100%">
+            </div>
+            <div class="column right">
+                <strong> Bed & Brekfast </strong>
+                <p>If a home away from home feel is what you are after check in with one of our best B & Bs!</p>
+                <p><a href="https://www.google.com/travel/hotels/Hayling%20Island/entity/CgoI2Y3UkOuW0t1EEAE?g2lb=4207876%2C4208993%2C4223281%2C4240601%2C4242081%2C4242898%2C4238563%2C4244078%2C4244566&hl=en&gl=uk&un=0&q=hayling%20island%20places%20to%20stay%20b%26b&rp=OAJAAEgC&ictx=1&hrf=CgUIrwEQACIDR0JQKhYKBwjjDxADGA4SBwjjDxADGA8YASgAsAEAWAGaARASDkhheWxpbmcgSXNsYW5kogEaCggvbS8wM2xxbBIOSGF5bGluZyBJc2xhbmSSAQIgAQ&tcfs=EjQKCC9tLzAzbHFsEg5IYXlsaW5nIElzbGFuZBoYCgoyMDE5LTAzLTE0EgoyMDE5LTAzLTE1UgA"><i> Cockle Warren Cottage</i></a>
+                <br>
+                <a href="http://www.copsewoodhouse.co.uk/"><i> Copsewood House B&B</i></a></p>
+            </div>
+          </div>
       </div>
 
 
-      <p>Planning your stay is half the fun, so take time to explore your options, whether gettingPlanning your stay is half the fun, so take time to explore your options, whether gettingPlanning your stay is half the fun, so take time to explore your options, whether gettingPlanning your stay is half the fun, so take time to explore your options, whether gettingPlanning your stay is half the fun, so take time to explore your options, whether gettingPlanning your stay is half the fun, so take time to explore your options, whether gettingPlanning your stay is half the fun, so take time to explore your options, whether gettingPlanning your stay is half the fun, so take time to explore your options, whether gettingPlanning your stay is half the fun, so take time to explore your options, whether gettingPlanning your stay is half the fun, so take time to explore your options, whether gettingPlanning your stay is half the fun, so take time to explore your options, whether gettingPlanning your stay is half the fun, so take time to explore your options, whether gettingPlanning your stay is half the fun, so take time to explore your options, whether gettingPlanning your stay is half the fun, so take time to explore your options, whether gettingvvvvPlanning your stay is half the fun, so take time to explore your options, whether gettingPlanning your stay is half the fun, so take time to explore your options, whether gettingPlanning your stay is half the fun, so take time to explore your options, whether gettingPlanning your stay is half the fun, so take time to explore your options, whether gettingPlanning your stay is half the fun, so take time to explore your options, whether gettingPlanning your stay is half the fun, so take time to explore your options, whether gettingPlanning your stay is half the fun, so take time to explore your options, whether gettingPlanning your stay is half the fun, so take time to explore your options, whether gettingPlanning your stay is half the fun, so take time to explore your options, whether getting </p>
-  </div>
 
-</body>
+
+      
+      </main>
+    </body>
 </html>
