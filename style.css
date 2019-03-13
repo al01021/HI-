@@ -72,8 +72,8 @@ li a:hover {
 }
 main{
 
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 header  {
   /*background: #9eefe3;*/
@@ -249,7 +249,6 @@ img {vertical-align: middle;}
 .column {
   float: left;
   padding: 10px;
-  /*height: 300px; /* Should be removed. Only for demonstration */
   font-size: 30px;
   font-family: 'Arizonia', Helvetica, sans-serif;
 }
@@ -257,6 +256,7 @@ img {vertical-align: middle;}
 .left {
   margin-top:  50px;
   width: 25%;
+  background-color:white;
 }
 
 .left img{
@@ -283,4 +283,70 @@ img {vertical-align: middle;}
   content: "";
   display: table;
   clear: both;
+}
+/* whats on section*/
+.section3 {
+  height:auto;
+  margin-top: 10px;
+
+  background-color:#40d6b6;
+  display: block;
+  font-family: 'Cardo', Georgia, Times, serif;
+   font-size: 20px;
+   line-height: 25px;
+}
+h4 {
+  font: 100 50px/1.7 'Arizonia', Helvetica, sans-serif;
+  background-color:#40d6b6;
+}
+/*newsletter subscribe form*/
+
+
+.container1 {
+  padding: 20px;
+  background-color: #40d6b6;
+}
+
+input[type=text], input[type=submit] {
+  width: 40%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+input[type=submit] {
+  background-color: #23a390;
+  color: black;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+  background-color: #8fb7af
+}
+.socialmedia{
+  background-color: #9eefe3
+
+}
+/* Style socialmedia buttons */
+.smicon {
+  margin: 0px;
+  background-color: #9eefe3;
+  border: 1px solid #9eefe3;
+  color: black ;
+  padding: 30px 24px;
+  cursor: pointer;
+  float:  none;
+  font-size: 25px;
+
+}
+
+.smicon:hover {
+  background-color: #23a390;
 }
