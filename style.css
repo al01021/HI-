@@ -2,7 +2,8 @@ body {
 
   background-color: #9eefe3;
   font-size: 20px;
-  font-family: Apple Chancery, cursive, Helvetica, sans-serif;
+  font-family: 'Cardo', Georgia, Times, serif;
+  line-height: 25px;
 }
 
 /*two top icon buttons*/
@@ -15,7 +16,7 @@ body {
   cursor: pointer;
   float: right;
   width: 50%;
-  font-family: Apple Chancery, cursive, Helvetica, sans-serif;
+  font-family:  'Cardo', Georgia, Times, serif;
   font-size: 15px;
 }
 
@@ -98,7 +99,7 @@ header h1 {
   /*background: #23a390;
   color: #fff;*/
   display: inline;
-  font: 52px Apple Chancery, cursive, Helvetica, sans-serif;;
+  font: 52px 'Cardo', Georgia, Times, serif;
   padding: 24px 15px;
   text-align: center;
 }
@@ -159,16 +160,6 @@ img {vertical-align: middle;}
   .text {font-size: 11px}
 }
 
-
-
-
-
-
-
-
-
-
-
 /* homepage main text*/
 .home_txt {
   height:auto;
@@ -176,7 +167,7 @@ img {vertical-align: middle;}
   background-color:#23a390;
   /*font-size:28px*/
   display: block;
-  font: 28px Apple Chancery, cursive, Helvetica, sans-serif;;
+  font: 28px 'Cardo', Georgia, Times, serif;
   padding: 24px 15px;
   text-align: center;
 
@@ -188,7 +179,7 @@ img {vertical-align: middle;}
 
   background-color:#40d6b6;*/
   display: block;
-  font: 400 50px/1.7 'Arizonia', Helvetica, sans-serif;
+  font: 400 50px/1.2 'Arizonia', Helvetica, sans-serif;
   padding: 50px 15px;
   text-align: center;
 }
@@ -221,7 +212,7 @@ img {vertical-align: middle;}
 /* Create four equal columns that floats next to each other */
 .column {
   float: left;
-  width: 30%;
+  width: 33%;
 }
 
 /* Clear floats after rows */
@@ -244,14 +235,52 @@ img {vertical-align: middle;}
 .section2 {
   height:auto;
   margin-top: 0;
-
   background-color:#23a390;
   display: block;
-  font: 400 50px/1.7 'Arizonia', Helvetica, sans-serif;
+  font: 100 50px/1.7 'Arizonia', Helvetica, sans-serif;
   padding: 50px 15px;
   text-align: center;
 }
-.
-.section2 img{
-  border-radius:50%
+* {
+  box-sizing: border-box;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  /*height: 300px; /* Should be removed. Only for demonstration */
+  font-size: 30px;
+  font-family: 'Arizonia', Helvetica, sans-serif;
+}
+
+.left {
+  margin-top:  50px;
+  width: 25%;
+}
+
+.left img{
+  height: 150px;
+}
+
+.right {
+  width: 75%;
+}
+.right P{
+  font-family: 'Cardo', Georgia, Times, serif;
+   font-size: 20px;
+   line-height: 25px;
+}
+
+.right i {
+  font-family: 'Cardo', Georgia, Times, serif;
+   font-size: 20px;
+   line-height: 25px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
