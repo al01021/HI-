@@ -1,7 +1,7 @@
 body {
   margin-left: 100px;
   margin-right: 100px;
-  font-family: Apple Chancery, cursive, Helvetica, sans-serif;
+  font-family: 'Cardo', Georgia, Times, serif;
   background-color: #9eefe3;
 }
 
@@ -15,7 +15,7 @@ body {
   cursor: pointer;
   float: right;
   width: 50%;
-  font-family: Apple Chancery, cursive, Helvetica, sans-serif;
+  font-family: font-family: 'Cardo', Georgia, Times, serif;
   font-size: 15px;
 }
 .btn-group:after {
@@ -101,7 +101,7 @@ li a:hover {
     margin-top: 0;
     background-color:#23a390;
     display: block;
-    font: 28px Apple Chancery, cursive, Helvetica, sans-serif;
+    font: 28px font-family: 'Cardo', Georgia, Times, serif;
     padding: 24px 15px;
     text-align: center;
     }
