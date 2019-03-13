@@ -249,7 +249,6 @@ img {vertical-align: middle;}
 .column {
   float: left;
   padding: 10px;
-  /*height: 300px; /* Should be removed. Only for demonstration */
   font-size: 30px;
   font-family: 'Arizonia', Helvetica, sans-serif;
 }
@@ -300,10 +299,7 @@ h4 {
   background-color:#40d6b6;
 }
 /*newsletter subscribe form*/
-form {
-  border: 3px solid #40d6b6;
-  font-family: Arial;
-}
+
 
 .container1 {
   padding: 20px;
@@ -332,4 +328,24 @@ input[type=submit] {
 input[type=submit]:hover {
   opacity: 0.8;
   background-color: #8fb7af
+}
+.socialmedia{
+  background-color: #9eefe3
+
+}
+/* Style socialmedia buttons */
+.smicon {
+  margin: 0px;
+  background-color: #9eefe3;
+  border: 1px solid #9eefe3;
+  color: black ;
+  padding: 30px 24px;
+  cursor: pointer;
+  float:  none;
+  font-size: 25px;
+
+}
+
+.smicon:hover {
+  background-color: #23a390;
 }

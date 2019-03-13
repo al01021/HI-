@@ -8,7 +8,7 @@
     <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet'  type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Arizonia' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Cardo" rel="stylesheet" type='text/css'>
-    <link rel="stylesheet" href-"css/bootstrap.css"> <!--bootstrap link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel= 'stylesheet' type = 'text/css' href = './style.css'> <!-- css file link-->
     <script src="./HI_home.js"></script>
 </head>
@@ -17,14 +17,14 @@
 <body>
   <a name="home"></a> <!-- link to home button- navbar-->
 
-  <!-- two top icon buttons - linked to bbc_weather web and tide_timetables-->
+  <!-- two top buttons - linked to bbc_weather web and tide_timetables-->
   <div class="btn-group">
 
       <form action="https://magicseaweed.com/Hayling-Island-Surf-Report/1344/Tide/">
-        <button type="submit"  /><i class = "fa fa-water"></i> Tidal Times </button>
+        <button type="submit" ></i> Tidal Times </button>
       </form>
       <form action="https://www.bbc.co.uk/weather/8299619">
-        <button type="submit"> <i class="fa fa-sun"></i> Current Weather</button>
+        <button type="submit"></i> Current Weather</button>
       </form>
   </div>
 
@@ -47,7 +47,7 @@
     <h1>Discover</h1><h2>Hayling Island...</h2>
   </<header>
 
-  <!-- homepage - main picture-->
+  <!-- homepage - main picture slide show-->
   <div class="slideshow-container">
 
       <div class="mySlides fade">
@@ -92,6 +92,7 @@
     <a name="ThingsToDo"></a>
       <h3>Things to do on Hayling Island</h3>
       <br>
+  <!--clickable imgs linked to watersport/nature/familyfun pages -->
       <div class="row">
           <div class="column">
               <div class="content">
@@ -114,7 +115,7 @@
       </div>
     </div>
 
-    <!-- navbar linked to this section - places to stay-->
+  <!-- navbar linked to this section - places to stay-->
     <div class="section2">
       <a name="places"></a>
         <h3>Places to stay on Hayling Island</h3>
@@ -156,28 +157,31 @@
             </div>
           </div>
       </div>
-      <div class="section3">
-          <a name="whatson"></a>
+    <div class="section3">
+        <a name="whatson"></a>
 
               <h4>What's on Hayling Island</h4>
               <p> There is always something happening on Hayling....
                   Subscribe to our monthly newsletter to make sure you don't miss any of the current events ???? this needs improving!!!</p>
+
+          <!--newsletter subscription form-->
               <form action="/action_page.php">
                 <div class="container1" >
                   <input type="text" placeholder="Name" name="name" required>
                   <input type="text" placeholder="Email address" name="mail" required>
-
                 </div>
-
                 <div class="container1">
                   <input type="submit" value="Subscribe">
                 </div>
               </form>
-        </div>
+      </div>
+  <!--social media buttons-->
+      <div class="socialmedia">
+        <button class="smicon"><i class="fa fa-facebook"></i></button>
+        <button class="smicon"><i class="fa fa-twitter"></i></button>
+        <button class="smicon"><i class="fa fa-instagram"></i></button>
+      </div>
 
-
-
-
-      </main>
-    </body>
+    </main>
+  </body>
 </html>
