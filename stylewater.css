@@ -1,11 +1,13 @@
 body {
-  margin-left: 100px;
-  margin-right: 100px;
+
   font-family: 'Cardo', Georgia, Times, serif;
   background-color: #9eefe3;
   font-size: 16px
 }
-
+.container {
+  margin-left: 100px !important;
+  margin-right: 100px !important;
+}
 /*two top icon buttons*/
 .btn-group button {
   margin: 0px;
@@ -50,7 +52,11 @@ body {
 .logo {
   margin-top: 5px;
   margin-left: 5px;
-
+  position: sticky;
+  top: 0;
+  right: 0;
+  z-index: 999;
+  width: 100 vw;
 }
 
 .logo li {
@@ -112,14 +118,16 @@ header h3 {
 
 p {
   font-size: 2em;
+  text-align: justify; /* soreads txt out in space*/
 }
 .d-block w100 {
   max-width: 10px;
   max-height: auto;
   }
+
   #carouselwindsurfingFade {
-  max-height: 500px;
-  width: auto;
+  max-width: 500 px;
+  margin: 0 auto;
   overflow: hidden;
   position: static;
   }
