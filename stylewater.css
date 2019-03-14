@@ -50,7 +50,7 @@ body {
   top: 0;
 }
 .logo {
-  margin-top: 5px;
+  padding: 0px 0px;
   margin-left: 5px;
   position: sticky;
   top: 0;
@@ -69,6 +69,7 @@ body {
   color: black;
   text-align: center;
   padding: 14px 16px;
+
   text-decoration: none;
 
 }
@@ -203,10 +204,11 @@ img {vertical-align: middle;}
   color: black ;
   padding: 30px 24px;
   cursor: pointer;
-  float:right;
+  float: none;
   font-size: 25px;
+  align-content: center;
 
-}
+  }
 
 .smicon:hover {
   background-color: #23a390;
