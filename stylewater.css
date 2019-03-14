@@ -203,7 +203,7 @@ img {vertical-align: middle;}
   color: black ;
   padding: 30px 24px;
   cursor: pointer;
-  float:  none;
+  float:right;
   font-size: 25px;
 
 }
