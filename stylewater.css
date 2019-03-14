@@ -30,16 +30,17 @@ body {
 
 /* background color on hover */
 .btn-group button:hover {
-  background-color: #8fb7af;
+  background-color: #23a390;
 }
 
-ul {
+.logo ul{
   list-style-type: none;
   /*border: 1px solid white;*/
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #9eefe3;
+  font-family: 'Cardo', Georgia, Times, serif;
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
@@ -50,12 +51,12 @@ ul {
 
 }
 
-li {
+.logo li {
   float: right;
 
 }
 
-li a {
+.logo li a {
   display: block;
   color: black;
   text-align: center;
@@ -64,16 +65,16 @@ li a {
 
 }
 /* background color on hover */
-li a:hover {
-  background-color: #8fb7af;
+.logo li a:hover {
+  background-color: #23a390;
 
 }
 
 /* header */
-.header h1 {
+h1 {
 
-  top: 18px;
-  font-size: 1.5em;
+
+  font-size: 4em;
 
   text-align: center;
   display: block;
@@ -84,7 +85,7 @@ h2 {
   color: #fff;*/
   display:inline;
   /*font: 400 130px/0.8 'Great Vibes', Helvetica, sans-serif;*/
-  font: 3.5em 'Arizonia', Helvetica, sans-serif;
+  font: 2em 'Arizonia', Helvetica, sans-serif;
   padding: 24px 15px;
   text-align: left;
 }
@@ -102,7 +103,7 @@ header h3 {
     margin-top: 0;
     background-color:#23a390;
     display: block;
-    font: 28px font-family: 'Cardo', Georgia, Times, serif;
+    font: 2em font-family: 'Cardo', Georgia, Times, serif;
     padding: 10px 10px;
     text-align: center;
     }
