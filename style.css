@@ -72,8 +72,8 @@ li a:hover {
 }
 main{
 
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 header  {
   /*background: #9eefe3;*/
@@ -87,7 +87,6 @@ header  {
 }
 header img {
   float: left;
-  padding left:  80px;
 }
 
 
@@ -162,7 +161,7 @@ img {vertical-align: middle;}
 /* homepage main text*/
 .home_txt {
   height:auto;
-  margin-top: 0;
+  margin-top: 20;
   background-color:#23a390;
   /*font-size:28px*/
   display: block;
