@@ -45,7 +45,7 @@ ul {
   position: sticky;
   top: 0;
 }
-.logo {
+.navbar {
   margin-top: 5px;
   margin-left: 5px;
 
@@ -85,6 +85,11 @@ header  {
   /*font-size:28px*/
   display: block;
 }
+header img {
+  float: left;
+  padding left:  80px;
+}
+
 
 header h2{
   /*background: #23a390;
@@ -102,6 +107,9 @@ header h1 {
   font: 52px 'Cardo', Georgia, Times, serif;
   padding: 24px 15px;
   text-align: center;
+}
+h3 {
+  font: 400 50px/1.2 'Arizonia', Helvetica, sans-serif;
 }
 /* homepage main picture*/
 .home_pic {
