@@ -43,12 +43,21 @@ body {
   padding: 0;
   overflow: hidden;
   background-color: #9eefe3;
-  font-family: 'Cardo', Georgia, Times, serif;
-  font-weight: bold;
+  font-size: 1.3em;
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
 }
+
+.li a {
+  display: block;
+  color: black;
+  text-align: center;
+
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
 .logo {
   padding: 0px 0px;
   margin-left: 5px;
@@ -75,7 +84,7 @@ body {
 }
 /* background color on hover */
 .logo li a:hover {
-  background-color: #23a390;
+  background-color: #8fb7af;
 
 }
 ul {
@@ -150,28 +159,6 @@ img {vertical-align: middle;}
   background-color: #717171;
 }
 
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 2s;
-  animation-name: fade;
-  animation-duration: 2s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
-}
 
 .section {
     height:auto;
@@ -182,6 +169,8 @@ img {vertical-align: middle;}
     padding: 10px 10px;
     text-align: center;
     }
+
+/* Book Now section */
 .contacts {
    background-color:#acffd4;
     }
@@ -206,7 +195,7 @@ img {vertical-align: middle;}
   cursor: pointer;
   float: none;
   font-size: 25px;
-  align-content: center;
+
 
   }
 
