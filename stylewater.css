@@ -4,9 +4,15 @@ body {
   background-color: #9eefe3;
   font-size: 16px
 }
+/*overide bootstrap container padding*/
 .container {
-  margin-left: 100px !important;
-  margin-right: 100px !important;
+  /*margin-left: 100px !important;*/
+  /*margin-right: 100px !important;*/
+    padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto;
+
 }
 /*two top icon buttons*/
 .btn-group button {
@@ -127,7 +133,7 @@ header h3 {
 }
 
 p {
-  font-size: 2em;
+  font-size: 1.9em;
   text-align: justify; /* soreads txt out in space*/
 }
 .d-block w100 {
@@ -181,7 +187,7 @@ img {vertical-align: middle;}
   display: 10%;
   margin-top: 20px;
   float: right;
-  max-width: : 100px
+  max-width: : 200px
 }
 
 
