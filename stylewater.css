@@ -187,10 +187,12 @@ img {vertical-align: middle;}
   display: 10%;
   margin-top: 20px;
   float: right;
-  max-width: : 200px
+  max-width: : 100px
 }
+.socialmedia{
+  background-color: #9eefe3
 
-
+}
 /* Style socialmedia buttons */
 .smicon {
   margin: 0px;
@@ -199,11 +201,10 @@ img {vertical-align: middle;}
   color: black ;
   padding: 30px 24px;
   cursor: pointer;
-  float: none;
+  float:  none;
   font-size: 25px;
 
-
-  }
+}
 
 .smicon:hover {
   background-color: #23a390;
